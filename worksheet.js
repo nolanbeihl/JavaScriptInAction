@@ -44,27 +44,25 @@ else {
     console.log("Hendrix");
 }
 
+for (let i = 1; i<8; i++){
+    alert("JavaScript is cool!" + i)
+}
 
+for (let i = 0; i<11; i++){
+    alert(i)
+}
 
+for (let i =1; i<11 ; i++){
+   if (i%2 == 0){
+       alert("Goodbye");
+   }
+    else {
+        alert("hello");
+    }
+}
+let isInstructorAwesome = true;
 
-
-// function diplayMealOption(){
-//     let userInput = prompt("What is the current time?: ");
-//     switch(userInput){
-//         case userInput < "1200":
-//             console.log("It is breakfast time so you can have a " + aFavoriteMeal[0]);
-//             break;
-//         case userInput > "1200" < "1700":
-//             console.log("It is lunch time so you can have " + aFavoriteMeal[1]);
-//             break;
-//         case userInput > "1700":
-//             console.log("It is dinner time so you can have a " + aFavoriteMeal[2]);
-//             break;
-//         default:
-//             console.log("I don't think you entered a valid time, please try again");
-//             diplayMealOption();
-//             break;
-//     }
-// }
-
-// diplayMealOption();
+while (isInstructorAwesome) {
+    console.log("Are you a good Instructor? ");
+    isInstructorAwesome = false;
+}
